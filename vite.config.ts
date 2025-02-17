@@ -1,17 +1,13 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Portfolio/',
+  base: '/Portfolio/',  // Ensure leading and trailing slash
   build: {
     sourcemap: true,
-    // terserOptions:
     chunkSizeWarningLimit: 1600,
   },
-  plugins: [
-    vue(),
-  ],
+  plugins: [vue()],
   resolve: {
     alias: {
       '@': '/src',
