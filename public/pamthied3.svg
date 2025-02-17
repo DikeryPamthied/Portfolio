@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1627" height="180" viewBox="0 0 1627 180">
+  <style>
+    @keyframes slideUp {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    text {
+      font-size: 93px;
+      fill: #505245;
+      font-family: "FONTSPRING DEMO - Gelegar Expanded";
+      opacity: 0; /* Start hidden */
+      animation: slideUp 1.5s ease-out forwards;
+      animation-delay: 3.2s;
+    }
+  </style>
+  <text x="0" y="176.866" transform="scale(2.666)">PAMTHIED</text>
+</svg>
